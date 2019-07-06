@@ -43,6 +43,8 @@ with valve.source.a2s.ServerQuerier(SERVER_ADDRESS) as server:
 bot = commands.Bot(command_prefix='.') #BOT PREFIX
 ```
 
+Configure it using ur values :)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
