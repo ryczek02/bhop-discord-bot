@@ -35,7 +35,7 @@ with valve.source.a2s.ServerQuerier(SERVER_ADDRESS) as server:
     info = server.info()
     players = server.players()
  
-bot = commands.Bot(command_prefix='.')
+bot = commands.Bot(command_prefix='.') #BOT PREFIX
 
 #########################
 ####### SEQUENCES #######
@@ -108,7 +108,7 @@ async def top10(ctx):
             colour = discord.Colour.green()
         )
        
-        user1 = SteamID(rekord[0][0])
+        user1 = SteamID(RECORD[0][0])
         user1 = user1.community_url
         embed.set_thumbnail(url="SERVER_SQUARE_IMGURL")
         embed.set_author(name="Players rank")
